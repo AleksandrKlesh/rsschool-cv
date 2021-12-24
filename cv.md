@@ -50,4 +50,4 @@ console.log(increment(5));
 ### Languages
 
 - Russian (native)
-- English (B1)
+- English (B1) Online 120h TESOL course ![tesol](https://ibb.co/6yKzVpd "TESOL certificate")
