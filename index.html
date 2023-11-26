@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CV</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Public+Sans:wght@300;400;700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="assets/css/normalize.css" />
-        <link rel="stylesheet" href="assets/css/style.css" />
+            rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <aside class="menu">
-            <a href="#" class="menu__hamburger">
+            <span href="#" class="menu__hamburger">
                 <span></span>
                 <span></span>
                 <span></span>
-            </a>
+            </span>
             <nav class="menu__nav">
                 <ul class="menu__list no-bullets">
                     <li class="menu__item">
@@ -97,8 +96,7 @@
                     width="300"
                     height="400"
                     src="assets/img/personal-photo.jpg"
-                    alt="personal photo"
-                />
+                    alt="personal photo">
             </section>
 
             <section class="contacts container" id="contacts">
@@ -145,7 +143,7 @@
           <code>
 <span class="overflow-wrap">const flights ='_Delayed_Departure;fao93766109;txl2133758440;11:25+_Arrival;bru0943384722;fao93766109;11:4+_Delayed_Arrival;hel7439299980;fao93766109;12:05+_Departure;fao93766109lis2323639855;12:30';</span>
 
-const getCode = str => str.slice(0, 3).toUpperCase();
+const getCode = function(str) {str.slice(0, 3).toUpperCase()};
 
 for (const flight of flights.split('+')) {
   const [type, from, to, time] = flight.split(';');
@@ -165,12 +163,12 @@ for (const flight of flights.split('+')) {
                 <ul class="education__list no-bullets">
                     <li class="education__item">
                         Ulyanovsk Aviation College
-                        <br />
+                        <br>
                         Computer Science and Information technology
                     </li>
                     <li class="education__item">
                         Ulyanovsk State University
-                        <br />
+                        <br>
                         Aircraft construction
                     </li>
                     <li class="education__item">
@@ -214,8 +212,7 @@ for (const flight of flights.split('+')) {
                     width="80"
                     height="40"
                     src="./assets/img/rs_school_js.svg"
-                    alt=""
-                />
+                    alt="rsschool icon">
             </a>
         </footer>
     </body>
