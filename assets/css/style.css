@@ -197,6 +197,14 @@ a:hover {
     flex-direction: column;
 }
 
+.overflow-wrap {
+    display: block;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+}
+
 .education {
     display: flex;
     flex-direction: column;
